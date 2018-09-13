@@ -1,13 +1,20 @@
-from Les1 import statements
+a = 6
+b = 7
 
 print (75 > a)
 
 print (75 < b)
 
-print(len (mijnaam) == len (voornaam + achternaam))
+voornaam = 'akram'
+tussenvoegsel = ' '
+achternaam = 'tarioui'
+
+mijnnaam = voornaam + tussenvoegsel + achternaam
+
+print(len(mijnnaam) == len(voornaam + achternaam))
 
 
-print(len(mijnaam) *5 > len(tussenvoegsel))
+print(len(mijnnaam) *5 > len(tussenvoegsel))
 
 
 print(tussenvoegsel in achternaam)
